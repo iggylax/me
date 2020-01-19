@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="iglika-mvp.css">
+
+    <!-- Favicon-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    
+    <!--Fonts-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap" rel="stylesheet"> 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" charset="utf-8"></script>
+
+
+    <title>Iglika Lax</title>
+
+    </head>
+
+    <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+    <body>
+
+
+
+        <div class="tab-content container">
+      
+            <h1>Hi, I'm Iggy,</h1>
+            <p class="main">An <span class="role">account manager</span> / <span class="role">product owner</span> based in Bristol. 
+
+            </p>
+
+            <p>I'm currently managing a global e-learning platform and other digital products <a target="_blank" href="https://six.agency">@Six</a>. I enjoy unravelling complexity and collaborating with dev, ux and design teams on challenging projects. 
+
+            </p>
+
+          
+        </div>
+
+        
+<nav class="footer container">
+      <div class="social">
+        <a target="_blank" href="https://twitter.com/iglikalax"><img src="images/twitter3.svg"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/iglika-lax/"><img src="images/linkedin3.svg"></a>
+       <!--- <a target="_blank" href="https://www.goodreads.com/user/show/61295421-iggy"><img src="images/goodreads.svg"></a> -->
+      </div>
+  </nav>
+
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+  
+    <script>
+
+// document ready
+(function ($) {
+
+var previousScroll = 20;
+    // scroll functions
+    $(window).scroll(function(e) {
+    
+        // add/remove class to navbar when scrolling to hide/show
+        var scroll = $(window).scrollTop();
+        if (scroll >= previousScroll) {
+            $('.navbar').addClass("navbar-hide");
+        
+        }else if (scroll < previousScroll) {
+            $('.navbar').removeClass("navbar-hide");
+        }
+        previousScroll = scroll;
+    
+    });
+    
+})(jQuery);   
+
+
+
+</script>
+    
+</html>

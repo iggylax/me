@@ -1,0 +1,166 @@
+
+
+:root {
+    --mainColor: #21de59;
+  }
+
+
+
+body {
+    margin: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 300;
+    
+}
+
+/* Nav */
+
+.nav-original {
+    height:65px;
+    display: flex;
+    align-items: center;
+    max-width: 750px;
+    background-color: white;
+    float: right;
+    margin: 10px auto 50px auto;
+
+}
+
+
+
+
+.nav-original a {
+    padding: 0px 2px 0px 5px;
+    margin: 0px 3px 1px 3px;
+    color: grey;
+    font-weight: 300;
+}
+
+.nav-original a:hover {
+    text-decoration: none;
+    color:;
+    transition: all .2s ease-in-out;
+
+    
+}
+
+.nav-original .active {
+    border-bottom: 2px solid #21de59;
+    padding: 5px 2px 4px 2px;
+    color: black;
+    font-weight: 400;
+}
+
+
+.navbar {
+    transition: top 0.4s ease;
+}
+
+.navbar-hide {
+    top: -56px;
+}
+
+
+
+#my {
+    margin-right: 2px;
+    font-weight: 400;
+    color: gray;
+    font-weight: 300;
+}
+
+#colon {
+    color: #21de59;
+    font-weight: 500;
+
+}
+
+
+
+h1 {
+    margin: 10px 0 25px 0;
+    color: black;
+    font-size: calc(22px + (40 - 22) * ((100vw - 300px) / (1600 - 300)));
+  
+}
+
+p a {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 3px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .4s;
+  }
+  
+ p a:hover {
+    background-size: 4px 50px;
+    color: black;
+  }
+
+ul {
+    list-style: none;
+  }
+  
+ul li::before {
+    color: #21de59;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+
+li {
+      padding: 5px;
+  }
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 40px 7px 5px 7px;
+   
+}
+
+
+
+.role {
+    font-weight: 500;
+    
+}
+
+
+
+.footer {
+    margin: 10px auto 50px auto;
+}
+
+.footer img {
+    height: 42px;
+    width: 42px;
+    padding: 10px;
+}
+
+.social{
+    float:right;
+   }
+
+
+
+
+/* Bootstrap override */
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.fade:not(.show) {
+    opacity: 100;
+}
