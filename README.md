@@ -1,3 +1,3 @@
 # me
 
-Just a basic about me/now page 
+Just a basic about/now page 
